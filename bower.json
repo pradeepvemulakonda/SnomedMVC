@@ -1,0 +1,40 @@
+{
+  "name": "Snomed",
+  "version": "0.0.1",
+  "authors": [
+    "Pradeep Vemulakonda<pradeepvemulakonda@gmail.com>"
+  ],
+  "description": "Snomed Browser",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "dependencies": {
+    "bootstrap": "*"
+  },
+  "keywords": [
+    "snomed",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/pradeepvemulakonda/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "*"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.js",
+      "css": "dist/css/*.css"
+    },
+    "jquery":{
+      "js":"dist/*.js"
+    }
+  }
+}

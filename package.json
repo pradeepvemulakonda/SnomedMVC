@@ -1,0 +1,36 @@
+{
+  "name": "snomed",
+  "version": "0.0.1",
+  "description": "Frontend for SNOMED CT Browser",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradeepvemulakonda/Snomed"
+  },
+  "keywords": [
+    "snomed",
+    "java",
+    "python",
+    "neo4j"
+  ],
+  "author": "pradeep vemulakonda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pradeepvemulakonda/Snomed/issues"
+  },
+  "homepage": "https://github.com/pradeepvemulakonda/Snomed",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-bower-task": "~0.4.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-qunit": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-less": "~1.0.1"
+  }
+}
